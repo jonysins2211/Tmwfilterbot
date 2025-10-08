@@ -212,7 +212,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/MoviesU2">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/MoviesU2">[ MOVIESU2 ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/tmw_channels">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/tmw_channels">[ MOVIES WORLD ]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
