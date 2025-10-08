@@ -189,7 +189,7 @@ async def next_page(bot, query):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ⚜️", url=f'https://t.me/MoviesU2'),
+                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ⚜️", url=f'https://t.me/TMW_Channels'),
                        InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
 
@@ -210,7 +210,7 @@ async def next_page(bot, query):
                    )
         btn.insert(0, [
             InlineKeyboardButton(
-                "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ⚜️", url=f'https://t.me/MoviesU2'),
+                "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ⚜️", url=f'https://t.me/TMW_Channels'),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
     try:
@@ -425,7 +425,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/MoviesU2'),
+                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/TMW_Channels'),
                        InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
                    ])
@@ -444,7 +444,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/MoviesU2'),
+                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/TMW_Channels'),
                        InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
 
@@ -584,7 +584,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/MoviesU2'),
+                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/TMW_Channels'),
                        InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
                    ]
@@ -603,7 +603,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/MoviesU2'),
+                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/TMW_Channels'),
                        InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
                    ])
@@ -738,7 +738,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         0,
         [
             InlineKeyboardButton(
-                "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/MoviesU2'),
+                "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/TMW_Channels'),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
         ],
     )
@@ -1411,7 +1411,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
                 ],[
                     InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
-                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=f'https://t.me/+JPjF6TKDQEBhMTk1'),
+                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎟', url=f'https://t.me/+y6JmJ2f1LCYxOTVl'),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -1758,7 +1758,7 @@ async def auto_filter(client, msg, spoll=False):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/MoviesU2'),
+                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f'https://t.me/TMW_Channels'),
                        InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
 
@@ -1778,7 +1778,7 @@ async def auto_filter(client, msg, spoll=False):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f"https://t.me/MoviesU2"),
+                           "⚜️ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚜️", url=f"https://t.me/TMW_Channels"),
                        InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
                    ])
